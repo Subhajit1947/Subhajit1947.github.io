@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhajit Das | Data Engineer</title>
+    <meta name="description" content="Data Engineer specializing in ETL pipelines, Spark, Airflow, and AWS. Building scalable data solutions.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Subhajit Das</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="blog.html">Blog</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transforming Data into Insights</h1>
+                <p class="hero-subtitle">Data Engineer building scalable ETL pipelines with <span class="highlight">Spark</span>, <span class="highlight">Airflow</span>, and <span class="highlight">AWS</span></p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="https://github.com/Subhajit1947" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <pre><code># My Data Engineering Approach
+def build_pipeline(data_source):
+    extract = spark.read.format("csv")
+    transform = clean_data(apply_business_logic())
+    load = write_to_warehouse(format="parquet")
+    return orchestrate_with_airflow()</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead">From self-taught full-stack developer to specialized <strong>Data Engineer</strong>, I've built a unique path focused on creating robust data infrastructure.</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2020</div>
+                            <div class="timeline-content">
+                                <h3>B.Sc Graduation</h3>
+                                <p>Completed with 66%, laying foundation in analytical thinking</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2021-2025</div>
+                            <div class="timeline-content">
+                                <h3>B.Tech in AI/ML</h3>
+                                <p>Graduated with 8.0 CGPA, specializing in machine learning and data systems</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item current">
+                            <div class="timeline-year">Present</div>
+                            <div class="timeline-content">
+                                <h3>Data Engineering Intern</h3>
+                                <p>Building production ETL pipelines with Spark & Airflow, processing 100K+ records</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section id="featured-project" class="section featured">
+        <div class="container">
+            <h2 class="section-title">Featured Project</h2>
+            <div class="project-card featured">
+                <div class="project-badge">Live Demo</div>
+                <div class="project-content">
+                    <h3>Olist E-Commerce Analytics Pipeline</h3>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Apache Spark</span>
+                        <span class="tech-tag">Airflow</span>
+                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">Parquet</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <p>End-to-end ETL pipeline processing 100K+ e-commerce orders. Transformed 9 CSV files into a star schema data warehouse with 10+ business intelligence insights.</p>
+                    
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-database"></i>
+                            <span>100K+ Records Processed</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-table"></i>
+                            <span>9 CSV → Star Schema</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-chart-line"></i>
+                            <span>10+ Analytics Questions</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-links">
+                        <a href="https://github.com/Subhajit1947/Olist-E-Commerce-Analytics-Pipeline" target="_blank" class="btn btn-primary">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                        <a href="projects.html#olist-demo" class="btn btn-secondary">
+                            <i class="fas fa-play-circle"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-image">
+                    <img src="assets\images\myproject-architechture-2025-11-28-2003.png" alt="Olist Pipeline Architecture">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">PySpark</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Big Data & Cloud</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Apache Spark</span>
+                        <span class="skill-item">Apache Airflow</span>
+                        <span class="skill-item">AWS (S3, EC2)</span>
+                        <span class="skill-item">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">Spark SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Open to Data Engineering opportunities and collaborations</p>
+            
+            <div class="contact-links">
+                <a href="mailto:dassubhajit1947@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email Me</span>
+                </a>
+                <a href="https://www.linkedin.com/in/subhajit7318/" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Subhajit1947" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Subhajit Das. Built with ❤️ and hosted on GitHub Pages</p>
+            <p>Kolkata, India | Data Engineer</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
